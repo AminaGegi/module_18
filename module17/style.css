@@ -1,0 +1,212 @@
+.nav-header {
+    position: absolute;
+    width: 1440px;
+    height: 90px;
+    line-height: 45px;
+}
+.nav{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.navbar-brand {
+    font-family: "Rubik";
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 28px;
+    position: absolute;
+    width: 115px;
+    height: 28px;
+    left: 40px;
+    top: 31px;
+}
+.navbar-menu{
+    font-family: "Roboto Light";
+    position: absolute;
+    width: 293px;
+    height: 19px;
+    left: 961px;
+    top: 35px;
+}
+header {
+    position: absolute;
+}
+li {
+    list-style: none;
+}
+.fio{
+    font-family: "Roboto Light";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 147.3%;
+    text-align: center;
+}
+.position{
+    font-family: "Roboto Light";
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 147.3%;
+    color: #828282;
+    text-align: center;
+}
+.navbar-menu-button{
+    background: white;
+    border: none;
+}
+.login-button{
+    background: white;
+    border-radius: 6px;
+    padding: 12px 30px;
+    position: absolute;
+    left: 1294px;
+}
+.logo-img{
+    position: absolute;
+    left: 522px;
+    top: 170px;
+}
+.about-us-header{
+    position: absolute;
+    left: 638px;
+    top: 531px;
+
+    font-family: 'Roboto Light', serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 64px;
+    line-height: 120%;
+    text-align: center;
+}
+.about-us{
+    position: absolute;
+    width: 925px;
+    height: 105px;
+    left: 258px;
+    top: 638px;
+    font-family: 'Roboto Light',serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 147.3%;
+    text-align: center;
+}
+.contacts-frame{
+    position: absolute;
+    width: 1440px;
+    height: 341px;
+    left: 0px;
+    top: 823px;
+    background: #F7F9FB;
+    align-content: center;
+}
+.contacts-header{
+    position: absolute;
+    left: 607px;
+    top: 80px;
+    /* H2 Desktop */
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 120%;
+    /* identical to box height, or 58px */
+    text-align: center;
+}
+
+.contacts-rectangle{
+    position: absolute;
+    width: 1px;
+    height: 62px;
+    top: 178px;
+    left: 720px;
+    background: #C8C8CF;
+    }
+.contacts-email{
+    position: absolute;
+    left: 387px;
+    top: 181px;
+    text-align: center;
+}
+.contacts-number{
+    position: absolute;
+    left: 789px;
+    top: 181px;
+    text-align: center;
+}
+.team-header{
+    position: absolute;
+    width: 203px;
+    height: 58px;
+    left: 618px;
+    top: 1244px;
+    font-family: 'Roboto Light';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 120%;
+    color: #1B1B1B;
+    text-align: center;
+}
+.team-frame{
+    position: absolute;
+    left: 229px;
+    top: 1357px;
+    text-align: center;
+    width: 1061px;
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+.team-member{
+margin-right: 81px;
+}
+.footer{
+    position: absolute;
+    width: 1440px;
+    height: 124px;
+    top: 2059px;
+    background: #3F3D56;
+}
+.footer-label{
+    position: absolute;
+    width: 152px;
+    height: 19px;
+    right: 1248px;
+    top: 52px;
+    font-family: 'Roboto Light';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 19px;
+    color: #FFFFFF;
+    opacity: 0.4;
+}
+.references{
+    position: absolute;
+    width: 150px;
+    right: 0px;
+    top: 46px;
+}
+.reference{
+    float: right;
+    margin-right: 19.33px;
+}
+svg:hover {
+    stroke: red;
+    fill: red;
+}
+button:hover{
+    background: #61A199;
+}
+a{
+    cursor: pointer;
+}
+button{
+    cursor: pointer;
+}
